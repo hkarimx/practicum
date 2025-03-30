@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Homepage</title>
 </head>
 <body>
-$END$
+<header>
+  <div class="header-container">
+    <h1 id="hotelName" onclick="changeHotelNameColor(this)">Hotel Paradise</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="giveAlert()">About</a></li>
+        <li><a href="#" onclick="giveAlert()">Info</a></li>
+        <li><a href="#" onclick="givePrompt()">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <h2>Welcome to Hotel Paradise!</h2>
+  <h3>"Your comfort is our priority"</h3>
+
+  <p>Visit our <a href="restaurant.html" target="_blank">Restaurant</a> or <a href="reservering.html" target="_blank">Make a Reservation</a>.</p>
+
+  <section>
+    <div>
+      <img src="../images/room.jpg" width="250" alt="Luxurious Room">
+      <p><strong>Luxurious Rooms:</strong> Enjoy our beautifully furnished rooms for a relaxing stay.</p>
+    </div>
+    <div>
+      <img src="../images/pool.jpg" width="250" alt="Swimming Pool">
+      <p><strong>Swimming Pool:</strong> Take a dip in our crystal-clear pool to unwind.</p>
+    </div>
+    <div>
+      <img src="../images/spa.jpg" width="250" alt="Spa">
+      <p><strong>Wellness Spa:</strong> Experience rejuvenation at our world-class spa.</p>
+    </div>
+  </section>
+</main>
+<footer class="footer-style">
+  <p>HBO-ICT 2024 (c)</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

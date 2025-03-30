@@ -2,9 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Reservering</title>
 </head>
 <body>
-$END$
+<header>
+  <h1>Hotel Reservering</h1>
+</header>
+
+<main>
+  <h2>Maak uw reservering</h2>
+
+  <!-- Aantal personen invoeren -->
+  <label for="aantalPersonen">Voor hoeveel personen wilt u reserveren?</label>
+  <input type="number" id="aantalPersonen" min="1" max="4" onchange="updateKamerOpties()">
+
+  <!-- Kamertype selecteren -->
+  <label for="kamerSelect">U kunt kiezen uit de volgende opties:</label>
+  <select id="kamerSelect" onchange="toonKamerSpecificaties()"></select>
+
+  <!-- Kamer specificaties -->
+  <div id="kamerDetails"></div>
+
+  <h2>Registratie van uw Reservering</h2>
+  <form id="reserveringForm">
+    <label for="voornaam">Voornaam:</label>
+    <input type="text" id="voornaam" required>
+
+    <label for="achternaam">Achternaam:</label>
+    <input type="text" id="achternaam" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+
+    <label for="telefoon">Telefoonnummer:</label>
+    <input type="tel" id="telefoon">
+
+    <label for="geslacht">Geslacht:</label>
+    <select id="geslacht">
+      <option>Man</option>
+      <option>Vrouw</option>
+      <option>Non-binair</option>
+    </select>
+
+    <label for="favorieteStad">Kies uw favoriete stad:</label>
+    <select id="favorieteStad">
+      <option>Amsterdam</option>
+      <option>Rotterdam</option>
+      <option>Utrecht</option>
+      <option>Den Haag</option>
+      <option>Groningen</option>
+    </select>
+
+    <button type="submit">Reserveren</button>
+    <button type="reset">Reset</button>
+  </form>
+</main>
+
+<footer>
+  <p>HBO-ICT 2024 (c)</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

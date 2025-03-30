@@ -1,10 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Reservering</title>
 </head>
 <body>
-$END$
+<header>
+    <div class="simple-header center-title">
+        <h1>Hotel Reservering</h1>
+    </div>
+</header>
+
+<main class="reservering-container">
+
+    <section class="reservering-input">
+        <div class="inline-group">
+            <label for="aantalPersonen">Voor hoeveel personen wilt u reserveren? :</label>
+            <input type="number" id="aantalPersonen" min="1" max="4" onchange="toonKamertypes()">
+        </div>
+
+        <div class="inline-group">
+            <label for="kamerKeuze">U kunt kiezen uit de volgende opties:</label>
+            <select id="kamerKeuze" onchange="toonKamerSpecificatie()"></select>
+        </div>
+    </section>
+
+    <section id="specificaties" class="reservering-details"></section>
+</main>
+
+<section class="formulier center-content">
+    <h2>Registratie van uw Reservering</h2>
+    <form id="reserveringForm" onsubmit="return validateForm()">
+
+        <div class="form-group">
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam">
+        </div>
+
+        <div class="form-group">
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" id="achternaam" name="achternaam" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefoon">Telefoonnummer:</label>
+            <input type="tel" id="telefoon" name="telefoon">
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Geslacht:</label>
+            <select name="gender" id="gender">
+                <option value="man">Man</option>
+                <option value="vrouw">Vrouw</option>
+                <option value="non-binary">Non-binary</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="steden">Favoriete steden:</label>
+            <select name="steden" id="steden" multiple>
+                <option>Amsterdam</option>
+                <option>Rotterdam</option>
+                <option>Utrecht</option>
+                <option>Den Haag</option>
+            </select>
+        </div>
+
+        <div class="form-group button-row">
+            <input type="submit" value="Verzenden">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>

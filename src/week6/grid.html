@@ -1,10 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Responsive Grid</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        html, body {
+          height: 100%;
+          font-family: sans-serif;
+        }
+
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: auto 200px 1fr 60px;
+          min-height: 100vh;
+        }
+
+        .grid-container > div {
+          padding: 20px;
+          font-weight: bold;
+          text-align: center;
+        }
+
+        .header {
+          grid-column: 1 / 4;
+          background: red;
+        }
+
+        .pic1 {
+          background: yellow;
+        }
+
+        .pic2 {
+          background: limegreen;
+        }
+
+        .pic3 {
+          background: cornflowerblue;
+        }
+
+        .activiteiten {
+          grid-column: 1 / 4;
+          background: orange;
+        }
+
+        .footer {
+          grid-column: 1 / 4;
+          background: violet;
+        }
+
+        @media (max-width: 400px) {
+          .grid-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+          }
+
+          .header,
+          .pic1,
+          .pic2,
+          .pic3,
+          .activiteiten,
+          .footer {
+            grid-column: 1 / -1;
+          }
+
+          .pic1 {
+            order: 1;
+          }
+          .pic2 {
+            order: 2;
+          }
+          .pic3 {
+            order: 3;
+          }
+        }
+    </style>
 </head>
 <body>
-$END$
+<div class="grid-container">
+    <div class="header">HEADER</div>
+    <div class="pic1">PICTURES & TEKST 1</div>
+    <div class="pic2">PICTURES & TEKST 2</div>
+    <div class="pic3">PICTURES & TEKST 3</div>
+    <div class="activiteiten">ACTIVITEITEN</div>
+    <div class="footer">FOOTER</div>
+</div>
 </body>
 </html>
