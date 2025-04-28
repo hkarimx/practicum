@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d35aa7-597f-44eb-a835-b481b2edebdb" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/images/breakfast.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/images/diner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/images/pool.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/images/room.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/images/spa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week1/restaurant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week2/restaurant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week3/restaurant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week3/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week3/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week4/restaurant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week4/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week4/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week5/coding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week5/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week5/reservering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week5/restaurant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week5/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individuele opdracht/src/week5/style.css" beforeDir="false" />
-    </list>
+    <list default="true" id="26d35aa7-597f-44eb-a835-b481b2edebdb" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,41 +34,41 @@
     &quot;assignee&quot;: &quot;hkarimx&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hkarimx/practicum.git",
-    "accountId": "a468413b-df21-4833-b02c-e9a1e074b474"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hkarimx/practicum.git&quot;,
+    &quot;accountId&quot;: &quot;a468413b-df21-4833-b02c-e9a1e074b474&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2uzTQ1TDfdmvNfrNSFXtYDRwl4d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/khann/IdeaProjects/practicum/src/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/khann/IdeaProjects/practicum/src/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\khann\IdeaProjects\practicum\src\images" />
